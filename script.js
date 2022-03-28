@@ -110,9 +110,9 @@ function paintErase() {
     let squareCanvas = document.querySelectorAll('.square');
     squareCanvas.forEach(function(square) {
         square.addEventListener('mouseover', function() {
-            square.style.backgroundColor = "rgba(255, 255, 255, 0.3)";
-            square.style.border = '1px solid #6B6269';
-            square.style.boxShadow = "none";
+            square.style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+            square.style.border = '1px solid rgba(45, 45, 45)';
+            square.style.boxShadow = "inset 1px 1px 0 0 rgba(255,255,255,0.3)";
         });
         
     });
